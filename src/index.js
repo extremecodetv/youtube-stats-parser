@@ -26,7 +26,7 @@ const push = async (video) => {
     entity = await VideoRepository.Create(video)
   }
 
-  return StatsRepository.Create(entity._id, stats)
+  await StatsRepository.Create(entity._id, stats)
 }
 
 const main = async () => {
