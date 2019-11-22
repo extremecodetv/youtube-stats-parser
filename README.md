@@ -6,20 +6,22 @@
 
 Statistics and information parser on all videos from the specific YouTube channel.
 
-## Usage
+## Installation
 
-1. Install Packages
+1. Prepare MongoDB and setup `.env` file like `.env.example`
+
+2. Install Packages
 
 ```bash
 npm i
 ```
 
-2. Then just add your's specified id's of channels in `./src/index.js`
+## Usage
 
-3. And launch app
+1. Just add your's specified id's of channels in `./src/index.js`
+
+2. And launch app
 
 ```bash
 npm run start
 ```
-
-
