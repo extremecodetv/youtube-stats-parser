@@ -1,0 +1,26 @@
+{
+  "name": "youtube-stats-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Artem Dontsov",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.7.12",
+    "puppeteer": "^2.0.0",
+    "standard": "^14.3.1"
+  },
+  "_moduleAliases": {
+    "@entities": "src/entities",
+    "@utils": "src/utils",
+    "@repositories": "src/repositories",
+    "@config": "src/config"
+  }
+}
