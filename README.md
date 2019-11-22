@@ -1,6 +1,6 @@
 # Youtube Stats Parser
 
-![Table](https://user-images.githubusercontent.com/16631907/69429572-704ad880-0d66-11ea-9414-c2eff0857721.png)
+![Table](https://user-images.githubusercontent.com/16631907/69429642-9f614a00-0d66-11ea-979d-0dda658c629e.png)
 
 ## Description
 
